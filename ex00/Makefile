@@ -1,4 +1,4 @@
-NAME := Brainnzz
+NAME := BraiiiiiiinnnzzzZ 
 
 SRCS = Zombie.cpp \
 	   newZombie.cpp \

@@ -1,4 +1,4 @@
-NAME := Moar
+NAME := Moar_brainz
 
 SRCS = Zombie.cpp \
 	   newZombie.cpp \

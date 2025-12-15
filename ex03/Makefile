@@ -1,4 +1,4 @@
-NAME := Violence
+NAME := Unnecessary_violence 
 
 SRCS = main.cpp \
 	   HumanA.cpp \
