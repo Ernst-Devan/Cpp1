@@ -13,12 +13,11 @@ HumanB::~HumanB(void)
 
 void    HumanB::setWeapon(Weapon& weapon)
 {
-
     this->_weapon = &weapon;
 }
 
 void    HumanB::attack(void)
 {
-    std::cout << this->_name << " attacks with their " << this->_weapon->getType() << std::endl;
-
+    if (this->_weapon)
+        std::cout << this->_name << " attacks with their " << this->_weapon->getType() << std::endl;
 }

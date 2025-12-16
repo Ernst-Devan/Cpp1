@@ -28,7 +28,7 @@ void    swap_occurence(std::string s1, std::string s2, std::string &current)
     {
         current.erase(found, s1.length());
         current.insert(found, s2);
-        found = current.find(s1, found + 1);
+        found = current.find(s1, found + s2.length());
     }
 }
 
