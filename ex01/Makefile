@@ -1,7 +1,6 @@
 NAME := Moar_brainz
 
 SRCS = Zombie.cpp \
-	   randomChump.cpp \
 	   zombieHorde.cpp \
 	   main.cpp \
 
